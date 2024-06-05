@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_exe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "views/**/*",
+    "targets": [
+      "node14-linux-arm64"
+    ],
+    "outputPath": "dist"
+  }
+}
